@@ -22,7 +22,7 @@
     <!-- header part design  -->
     <header id="header">
         <!-- navigations  -->
-        <nav id="nav" class="navbar navbar-light navbar-expand-md ">
+        <nav id="nav" class="navbar navbar-light navbar-expand-md">
             <div class="nav-container container">
                 <a href="#header" class="logo"><img src="./assets/images/logo.png" alt="logo this template"
                         class="img-fluid"></a>
@@ -39,24 +39,30 @@
                     </div>
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a href="#header" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="#products" class="nav-link">Product</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#shoes" class="dropdown-item">Shoes</a></li>
+                                <li><a href="#bags" class="dropdown-item">Bags</a></li>
+                            </ul>
+                        </li>
                         <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
-                        <li class="nav-item ms-lg-3"><a href="#contact"
-                                class="nav-link btn px-3 bg-both font-weight-500 font-poppins shadow-sm">Contact</a>
+                        <li class="nav-item ms-lg-3"><a href="#modal-1" data-bs-toggle="modal" class="nav-link btn px-3 bg-linear-2 text-white font-weight-500 font-poppins shadow-sm">Contact</a>
                         </li>
                     </ul>
                 </menu>
             </div>
         </nav>
         <!-- hero banner part  -->
-        <section id="hero" class="py-5" >
+        <section id="hero" class="py-5">
             <div class="hero-container container">
-                <div class="carousel slide carousel-dark  bg-both m-3 p-4 rounded-3" data-bs-ride="carousel" id="carousel-1">
+                <div class="carousel slide carousel-dark  bg-both m-3 p-4 rounded-3" data-bs-ride="carousel"
+                    id="carousel-1">
                     <!-- carousel indicators  -->
                     <div class="carousel-indicators">
                         <button class="active" data-bs-target="#carousel-1" data-bs-slide-to="0"></button>
-                        <button  data-bs-target="#carousel-1" data-bs-slide-to="1"></button>
-                        <button  data-bs-target="#carousel-1" data-bs-slide-to="2"></button>
+                        <button data-bs-target="#carousel-1" data-bs-slide-to="1"></button>
+                        <button data-bs-target="#carousel-1" data-bs-slide-to="2"></button>
                     </div>
                     <div class="carousel-inner">
                         <!-- carousel item  -->
@@ -64,12 +70,17 @@
                             <div class="row px-lg-4 align-items-center justify-content-between">
                                 <div class="col-lg-6">
                                     <h1 class="display-5 fw-bold">Mi LED TV 4A PRO 32</h1>
-                                    <p class="lead text-muted fs-6 py-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                                    <span class="prices d-block display-6 font-poppins font-weight-500 text-common-alt my-3">$1289</span>
-                                    <a href="#" class="btn bg-linear-2 text-white px-4 py-2">Buy Now <i class="bi bi-cart-check"></i></a>
+                                    <p class="lead text-muted fs-6 py-2">Amet minim mollit non deserunt ullamco est sit
+                                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                        Exercitation veniam consequat sunt nostrud amet.</p>
+                                    <span
+                                        class="prices d-block display-6 font-poppins font-weight-500 text-common-alt my-3">$1289</span>
+                                    <a href="#" class="btn bg-linear-2 text-white px-4 py-2">Buy Now <i
+                                            class="bi bi-cart-check"></i></a>
                                 </div>
                                 <div class="col-lg-4">
-                                    <img src="./assets/images/banner-images/tv.png" width="400" alt="televission" class="img-fluid">
+                                    <img src="./assets/images/banner-images/tv.png" width="400" alt="televission"
+                                        class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -78,12 +89,17 @@
                             <div class="row px-lg-4 align-items-center justify-content-between">
                                 <div class="col-lg-6">
                                     <h1 class="display-5 fw-bold">Mi HEADPHONE PRO 32</h1>
-                                    <p class="lead text-muted fs-6 py-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                                    <span class="prices d-block display-6 font-poppins font-weight-500 text-common-alt my-3">$1289</span>
-                                    <a href="#" class="btn bg-linear-2 text-white px-4 py-2">Buy Now <i class="bi bi-cart-check"></i></a>
+                                    <p class="lead text-muted fs-6 py-2">Amet minim mollit non deserunt ullamco est sit
+                                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                        Exercitation veniam consequat sunt nostrud amet.</p>
+                                    <span
+                                        class="prices d-block display-6 font-poppins font-weight-500 text-common-alt my-3">$1289</span>
+                                    <a href="#" class="btn bg-linear-2 text-white px-4 py-2">Buy Now <i
+                                            class="bi bi-cart-check"></i></a>
                                 </div>
                                 <div class="col-lg-4">
-                                    <img src="./assets/images/banner-images/headphone.png" width="400" alt="televission" class="img-fluid">
+                                    <img src="./assets/images/banner-images/headphone.png" width="400" alt="televission"
+                                        class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -92,17 +108,21 @@
                             <div class="row px-lg-4 align-items-center justify-content-between">
                                 <div class="col-lg-6">
                                     <h1 class="display-5 fw-bold">Mi XBOX PRO 32</h1>
-                                    <p class="lead text-muted fs-6 py-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                                    <span class="prices d-block display-6 font-poppins font-weight-500 text-common-alt my-3">$1289</span>
-                                    <a href="#" class="btn bg-linear-2 text-white px-4 py-2">Buy Now <i class="bi bi-cart-check"></i></a>
+                                    <p class="lead text-muted fs-6 py-2">Amet minim mollit non deserunt ullamco est sit
+                                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                        Exercitation veniam consequat sunt nostrud amet.</p>
+                                    <span
+                                        class="prices d-block display-6 font-poppins font-weight-500 text-common-alt my-3">$1289</span>
+                                    <a href="#" class="btn bg-linear-2 text-white px-4 py-2">Buy Now <i
+                                            class="bi bi-cart-check"></i></a>
                                 </div>
                                 <div class="col-lg-4">
-                                    <img src="./assets/images/banner-images/xbox.png" width="400" alt="televission" class="img-fluid">
+                                    <img src="./assets/images/banner-images/xbox.png" width="400" alt="televission"
+                                        class="img-fluid">
                                 </div>
                             </div>
                         </div>
-                      
-                      
+
                     </div>
                 </div>
             </div>
@@ -111,14 +131,196 @@
     <!-- header part design end  -->
 
     <!-- main part design  -->
-    <main id="main"> 
-        
+    <main id="main">
+        <!-- categories sections  -->
+        <section id="categories" class="pb-lg-4 mb-lg-3">
+            <div class="category-container container px-lg-5  px-lg-5 py-lg-0">
+                <h1 class="section-title fs-2 font-weight-500 font-poppins mb-4">Categories</h1>
+                <div class="row gy-3 mb-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div
+                            class="card bg-linear-1 border-0 flex-row align-items-center r shadow-smounded-3 p-2 cursor-pointer">
+                            <div class="card-body">
+                                <h3 class="card-title text-white">Watch</h3>
+                            </div>
+                            <div class="card-header border-0">
+                                <img src="./assets/images/categories/watch.png" width="68" alt="bag" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div
+                            class="card bg-linear-2 border-0 flex-row align-items-center shadow-sm rounded-3 p-2 cursor-pointer">
+                            <div class="card-body">
+                                <h3 class="card-title text-white">Bag</h3>
+                            </div>
+                            <div class="card-header border-0">
+                                <img src="./assets/images/categories/bag.png" width="68" alt="bag" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div
+                            class="card bg-linear-3 border-0 flex-row align-items-center r shadow-smounded-3 p-2 cursor-pointer">
+                            <div class="card-body">
+                                <h3 class="card-title text-white">Shoes</h3>
+                            </div>
+                            <div class="card-header border-0">
+                                <img src="./assets/images/categories/shoes.png" width="68" alt="bag" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- products sections start here  -->
+        <section id="shoes" class="py-5 bg-product pb-lg-5">
+            <div class="shoes-container container px-lg-5  px-lg-5 py-lg-3">
+                <h1 class="section-title fs-2 font-weight-500 font-poppins mb-4">Shoes</h1>
+                <div class="row gy-5">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card text-center bg-white rounded-max border-0 align-items-center">
+                            <img src="./assets/images/shoes/shoe-1.png" width="300" alt="shoe-1" class="img-fluid">
+                            <div class="card-body px-4">
+                                <h3 class="card-title h4">Reebok Dart Men’s Shoes</h3>
+                                <p class="card-text fs-6 text-muted font-poppins">Amet minim mollit non deserunt ullamco
+                                    est sit aliqua dolor do amet sint. </p>
+                                <span class="price d-block fs-4 text-center font-weight-500 my-3">$1289</span>
+                                <a href="#" class="btn btn-dark text-white px-4 py-2 d-block mb-lg-3">Buy Now <i
+                                        class="bi bi-cart-check"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card text-center bg-white rounded-max border-0 align-items-center">
+                            <img src="./assets/images/shoes/shoe-2.png" width="300" alt="shoe-2" class="img-fluid">
+                            <div class="card-body px-4">
+                                <h3 class="card-title h4">Reebok Pump</h3>
+                                <p class="card-text fs-6 text-muted font-poppins">Amet minim mollit non deserunt ullamco
+                                    est sit aliqua dolor do amet sint. </p>
+                                <span class="price d-block fs-4 text-center font-weight-500 my-3">$1289</span>
+                                <a href="#" class="btn btn-dark text-white px-4 py-2 d-block mb-lg-3">Buy Now <i
+                                        class="bi bi-cart-check"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card text-center bg-white rounded-max border-0 align-items-center">
+                            <img src="./assets/images/shoes/shoe-3.png" width="300" alt="shoe-3" class="img-fluid">
+                            <div class="card-body px-4">
+                                <h3 class="card-title h4">Reebok All terrin</h3>
+                                <p class="card-text fs-6 text-muted font-poppins">Amet minim mollit non deserunt ullamco
+                                    est sit aliqua dolor do amet sint. </p>
+                                <span class="price d-block fs-4 text-center font-weight-500 my-3">$1289</span>
+                                <a href="#" class="btn btn-dark text-white px-4 py-2 d-block mb-lg-3">Buy Now <i
+                                        class="bi bi-cart-check"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="bags" class="py-5 bg-product pb-lg-5 mb-lg-3">
+            <div class="bags-container container px-lg-5  px-lg-5 py-lg-3">
+                <h1 class="section-title fs-2 font-weight-500 font-poppins mb-4">Backpack</h1>
+                <div class="row gy-5">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card text-center bg-white rounded-max border-0 align-items-center">
+                            <img src="./assets/images/bags/bag-1.png" width="300" alt="bags-1" class="img-fluid">
+                            <div class="card-body px-4">
+                                <h3 class="card-title h4">Ison Backpack</h3>
+                                <p class="card-text fs-6 text-muted font-poppins">Amet minim mollit non deserunt ullamco
+                                    est sit aliqua dolor do amet sint. </p>
+                                <span class="price d-block fs-4 text-center font-weight-500 my-3">$1289</span>
+                                <a href="#" class="btn btn-dark text-white px-4 py-2 d-block mb-lg-3">Buy Now <i
+                                        class="bi bi-cart-check"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card text-center bg-white rounded-max border-0 align-items-center">
+                            <img src="./assets/images/bags/bag-2.png" width="300" alt="bags-2" class="img-fluid">
+                            <div class="card-body px-4">
+                                <h3 class="card-title h4">Biaowang Backpack</h3>
+                                <p class="card-text fs-6 text-muted font-poppins">Amet minim mollit non deserunt ullamco
+                                    est sit aliqua dolor do amet sint. </p>
+                                <span class="price d-block fs-4 text-center font-weight-500 my-3">$1289</span>
+                                <a href="#" class="btn btn-dark text-white px-4 py-2 d-block mb-lg-3">Buy Now <i
+                                        class="bi bi-cart-check"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card text-center bg-white rounded-max border-0 align-items-center">
+                            <img src="./assets/images/bags/bag-3.png" width="300" alt="bags-3" class="img-fluid">
+                            <div class="card-body px-4">
+                                <h3 class="card-title h4">Dxyizu WS54 Smart</h3>
+                                <p class="card-text fs-6 text-muted font-poppins">Amet minim mollit non deserunt ullamco
+                                    est sit aliqua dolor do amet sint. </p>
+                                <span class="price d-block fs-4 text-center font-weight-500 my-3">$1289</span>
+                                <a href="#" class="btn btn-dark text-white px-4 py-2 d-block mb-lg-3">Buy Now <i
+                                        class="bi bi-cart-check"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- call to action sections  -->
+        <section id="contact" class="p-5">
+            <div class="contact-container container bg-footer p-5 rounded-max shadow-sm">
+                <div class="row justify-content-center font-poppins  text-center py-5">
+                    <div class="col py-lg-4">
+                        <h2 class="text-uppercase font-weight-normal font-poppins fs-3">Let's Start In Touch</h2>
+                        <p class="subtitle small text-muted font-poppins font-weight-normal">Get updates on sales
+                            specials and more</p>
+                        <form action="javascript:void(0)" class="call-to-action bg-white shadow-sm mt-3">
+                            <input type="email" class="font-poppins bg-transparent" placeholder="Enter Your Email">
+                            <button class="bg-linear-2 text-white">Send <i class="bi bi-send-check"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
     <!-- main part design end  -->
 
     <!-- footer part design  -->
     <footer id="footer"></footer>
     <!-- footer part design end  -->
+
+    <!-- markup for modal  -->
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content border-0 rounded-0">
+                <form action="#">
+                    <div class="modal-header bg-linear-2 p-lg-4 border-0 rounded-0">
+                        <h3 class="text-white">Contact For Product Details</h3>
+                        <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-4 form-floating">
+                            <input type="text" class="form-control" placeholder="your-name" id="name"> 
+                            <label for="name" class="form-label">Your Name</label>
+                        </div>
+                        <div class="mb-4 form-floating">
+                            <input type="email" class="form-control" placeholder="your-email" id="email"> 
+                            <label for="email" class="form-label">Your Email</label>
+                        </div>
+                        <div class="mb-2 ">
+                            <label for="details" class="form-label">Query?</label>
+                        <textarea name="details" id="details"  rows="5" class="form-control" placeholder="Query"></textarea> 
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="bg-linear-2 text-white border-0 btn " type="button">Send Query <i class="bi bi-send-check"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
 
 
